@@ -16,7 +16,7 @@
             <div>address: {{ scope.row.address }}</div>
           </template>
           <template #reference>
-            <el-tag>{{ scope.row.name }}</el-tag>
+            <el-input v-model="scope.row.name"></el-input>
           </template>
         </el-popover>
       </template>
